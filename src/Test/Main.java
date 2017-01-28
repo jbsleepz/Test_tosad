@@ -34,6 +34,7 @@ public static void main(String[] args) throws SQLException{
 			((AttributeRangeRule) attribute).setMinimumValue(minimumValue);
 			System.out.println(attribute.generateScript(businesRule.getNaam(), "", errorMessage));
 		}
+		//OTHERRULE
 		
 
 }
